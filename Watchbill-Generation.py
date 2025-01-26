@@ -1,3 +1,6 @@
+import matplotlib
+matplotlib.use('Agg')  # Use the Agg backend for matplotlib
+
 import random
 import tkinter as tk
 from tkinter import ttk  # Import ttk for Treeview
